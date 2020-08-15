@@ -4,9 +4,15 @@ version: 0.3.9
 authors:
   - creadone <creadone@gmail.com>
   - delef <delef@ya.ru>
+  - iomcr <>
 
 description: |
-  Device detection library will parse User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), vendor and model.
+  Fork of device_detector (Parse User Agents) that uses schovi/baked_file_system
 
 crystal: 0.35.1
 license: MIT
+
+development_dependencies:
+  baked_file_system:
+    github: schovi/baked_file_system
+    version: 0.9.8
